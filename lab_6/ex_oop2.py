@@ -5,7 +5,7 @@ Group: MIT221
 """
 
 class student:
-#class attributes
+    #class attributes
 uni = "RUTS"
 
 def __init__(self,name,id,major):
@@ -14,7 +14,7 @@ def __init__(self,name,id,major):
     self.id = id
     self.major = major
 def introduce(self):
-    print(f' my name is {self.name}f,my name is{self.id},f'name
+    #print(f' my name is {self.name}f,my name is{self.id},f'name
 
 
 
@@ -35,9 +35,9 @@ def introduce(self):
 
 
 
+def __init__(self,nameid,major):
 
-    def __init__(self,nameid,major):
-        # object attributes
+    # object attributes
         self.name = name
         self.major = major
         # add object to my_std (list)

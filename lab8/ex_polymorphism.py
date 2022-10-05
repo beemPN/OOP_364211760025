@@ -1,0 +1,41 @@
+"""
+Name :pannika nareeloed
+ID: 364211760025
+Group: MIT221
+"""
+# polymorphism - การพ้องรูป
+
+# function polymorphism
+l = {1,2,3,4,5}
+x = 100
+print(l)
+print(x)
+s = "RUTS"
+print(len(l))
+print(len(s),s[2])
+# polymorphism with class method
+class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f'I am cat,my name is{self.name}'
+              f'I am {self.age} years old.')
+
+class Dog:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f'I am dog,my name is{self.name}'
+              f'I am {self.age} years old.')
+
+# creata object
+
+c = Cat("mumu",2)
+d = Dog("lulu",5)
+
+animal = [c,d]
+
+for x in animal:
+    x.info()
